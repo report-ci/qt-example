@@ -8,7 +8,7 @@ class MyFirstTest: public QObject
 private:
     bool myCondition()
     {
-        return true;
+        return false;
     }
 
 private slots:
@@ -19,14 +19,13 @@ private slots:
 
     void myFirstTest()
     {
-        QVERIFY(true); // check that a condition is satisfied
-        QCOMPARE(2, 2); // compare two values
+        QVERIFY(false); // check that a condition is satisfied
+        QCOMPARE(1, 2); // compare two values
     }
 
     void mySecondTest()
     {
         QVERIFY(myCondition());
-        QVERIFY(1 != 2);
     }
 
     void cleanupTestCase()
