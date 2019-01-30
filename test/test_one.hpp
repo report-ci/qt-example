@@ -20,7 +20,7 @@ private slots:
     void myFirstTest()
     {
         QVERIFY(true); // check that a condition is satisfied
-        QCOMPARE(1, 2); // compare two values
+        QCOMPARE(2, 2); // compare two values
     }
 
     void mySecondTest()
