@@ -9,6 +9,6 @@ private slots:
 
     void someTest()
     {
-        QVERIFY2(3, "Some message");
+        QVERIFY2(0, "Some message");
     }
 };
